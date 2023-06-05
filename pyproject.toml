@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "repo-root-template"
+version = "0.1.0"
+description = ""
+authors = ["Charlie J Fowler <51715025+iPoetDev@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "repo_root_template"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
